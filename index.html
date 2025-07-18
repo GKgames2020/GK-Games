@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light Theme</title>
+<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<style>
+    /* Enhanced Image Hover Animations */
+    .hover-animate {
+        transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        position: relative;
+        overflow: hidden;
+        transform-style: preserve-3d;
+        will-change: transform, filter;
+        backface-visibility: hidden;
+    }
+    
+    .hover-animate:hover {
+        transform: perspective(1000px) translateZ(20px) scale(1.05);
+        filter: drop-shadow(0 15px 20px rgba(0, 0, 0, 0.3));
+        z-index: 10;
+    }
+    
+    /* Glow and shine effects */
+    .hover-animate::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, 0.2),
+            transparent
+        );
+        transition: 0.5s;
+    }
+    
+    .hover-animate:hover::before {
+        left: 100%;
+    }
+    
+    /* Border animation */
+    .hover-animate::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        padding: 2px;
+        background: linear-gradient(45deg, #ff0, #f0f, #0ff, #0f0);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    
+    .hover-animate:hover::after {
+        opacity: 0.7;
+        animation: borderRotate 3s linear infinite;
+    }
+    
+    @keyframes borderRotate {
+        100% {
+            transform: rotate(1turn);
+        }
+    }
+    
+    /* Gallery thumbnail animations */
+    .thumbnail {
+        transition: all 0.4s ease, transform 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+        transform-origin: center bottom;
+    }
+    
+    .thumbnail:hover {
+        transform: translateY(-15px) scale(1.05);
+        box-shadow: 0 20px 30px rgba(0,0,0,0.25);
+    }
+    
+    /* Button animation */
+    .button {
+        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        transform-origin: center;
+    }
+    
+    .button:hover {
+        transform: scale(1.1) rotate(-3deg);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        background: linear-gradient(45deg, #ff8a00, #e52e71);
+    }
+    
+    /* Image container for better perspective */
+    .img-container {
+        display: inline-block;
+        perspective: 1000px;
+    }
+</style>
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="">
+    <h4 class="logo">LIGHT</h4>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li> <a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2 class="hero_header">HERO <span class="light">LIGHT</span></h2>
+    <p class="tagline">Light is a simple one page website</p>
+    <div class="img-container">
+      <a href="images/Randeer.png" target="_top">
+        <img src="images/Randeer.png" alt="Randeer" width="512" class="hover-animate" style="width: : 40%; height: auto;">
+      </a>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+  </section>
+  
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail">
+      <h1 class="stats">1500</h1>
+      <h4>TITLE</h4>
+      <p>One line description</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">2300</h1>
+      <h4>TITLE</h4>
+      <p>One line description</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">7500</h1>
+      <h4>TITLE</h4>
+      <p>One line description</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">9870</h1>
+      <h4>TITLE</h4>
+      <p>One line description</p>
+    </div>
+  </div>
+  
+  <!-- Parallax Section -->
+  <section class="banner">
+    <h2 class="parallax">PARALLAX HERO</h2>
+    <p class="parallax_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+    <div class="img-container">
+      <a href="images/Indian scout bobber Bike1.png">
+        <img src="images/Indian scout bobber Bike1.png" class="hover-animate" alt="Indian Scout Bobber" style="max-width: 80%; height: auto;">
+      </a>
+    </div>
+  </section>
+  
+  <!-- More Info Section -->
+  <footer>
+    <article class="footer_column">
+      <h3>ABOUT</h3>
+      <div class="img-container">
+        <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards hover-animate">
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+    </article>
+    <article class="footer_column">
+      <h3>LOCATION</h3>
+      <div class="img-container">
+        <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards hover-animate">
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+    </article>
+  </footer>
+  
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <h2 class="hidden">Footer Banner Section </h2>
+    <p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>
+    <div class="button">subscribe</div>
+  </section>
+  
+  <!-- Copyrights Section -->
+  <div class="copyright">©2020- <strong>Light Theme</strong></div>
+</div>
+
+<script>
+    // Advanced 3D hover effects with lighting simulation
+    document.addEventListener('DOMContentLoaded', function() {
+        const animatedElements = document.querySelectorAll('.hover-animate');
+        
+        animatedElements.forEach(element => {
+            // Store original brightness
+            element.dataset.originalBrightness = '100%';
+            
+            element.addEventListener('mousemove', (e) => {
+                const rect = element.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                
+                // Calculate position relative to center
+                const posX = (x - centerX) / centerX;
+                const posY = (centerY - y) / centerY;
+                
+                // 3D tilt effect
+                const tiltX = posY * 10;
+                const tiltY = posX * -10;
+                
+                // Lighting effect based on mouse position
+                const brightness = 100 + (Math.abs(posX) * 20);
+                
+                // Apply transformations
+                element.style.transform = `
+                    perspective(1000px) 
+                    rotateX(${tiltX}deg) 
+                    rotateY(${tiltY}deg) 
+                    translateZ(20px) 
+                    scale(1.05)
+                `;
+                element.style.filter = `
+                    brightness(${brightness}%) 
+                    drop-shadow(${-posX * 15}px ${-posY * 15}px 20px rgba(0, 0, 0, 0.3))
+                `;
+            });
+            
+            element.addEventListener('mouseleave', () => {
+                element.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateZ(0) scale(1)';
+                element.style.filter = 'brightness(100%) drop-shadow(0 0 0 rgba(0, 0, 0, 0))';
+            });
+        });
+    });
+</script>
+</body>
+</html>
