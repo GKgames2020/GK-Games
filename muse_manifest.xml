@@ -1,0 +1,99 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="GKgames.com" resolutions="1x" timestamp="1753443627551">
+  <folder name="css">
+    <file name="site_global.css" crc="4157446012"/>
+    <file name="index.css" crc="3956995889" ref="index"/>
+    <file name="games.css" crc="3984476754" ref="games"/>
+    <file name="about.css" crc="495834184" ref="about"/>
+    <file name="horror-stories.css" crc="495834184" ref="horror-stories"/>
+    <file name="contact.css" crc="495834184" ref="contact"/>
+    <file name="shop.css" crc="495834184" ref="shop"/>
+    <file name="master_a-master.css" crc="3854879546" ref="index:horror-stories:games:shop:contact:about:graphics"/>
+    <file name="graphics.css" crc="495834184" ref="graphics"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:games:horror-stories:shop:about:contact:graphics"/>
+    <file name="museutils.js" crc="3939489907" ref="index:games:horror-stories:shop:about:contact:graphics"/>
+    <file name="whatinput.js" crc="86476730" ref="index:games:horror-stories:shop:about:contact:graphics"/>
+    <file name="museconfig.js" crc="3936894949" ref="index:games:horror-stories:shop:about:contact:graphics"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="index"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:games:horror-stories:shop:about:contact:graphics"/>
+    <file name="require.js" crc="4177726516" ref="index:games:horror-stories:shop:about:contact:graphics"/>
+    <file name="webpro.js" crc="3856315280" ref="index"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="index"/>
+    <file name="touchswipe.js" crc="3888935200" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="pasted-svg-1953464x1421.svg" crc="3762254307" seo="true" ref="index:games:horror-stories:shop:about:contact:graphics">
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="graphics" alt=""/>
+      <caption webpage="horror-stories" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="shop" alt=""/>
+      <caption webpage="games" alt=""/>
+    </file>
+    <file name="pasted svg 1953464x1421_poster_.png" crc="4050924631" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:games:horror-stories:shop:about:contact:graphics"/>
+    <file name="u667.png" crc="5408444" ref="index"/>
+    <file name="u667-r.png" crc="236349602" ref="index"/>
+    <file name="u667-m.png" crc="236349602" ref="index"/>
+    <file name="u667-a.png" crc="124205824" ref="index"/>
+    <file name="u1104.png" crc="469389364" ref="index"/>
+    <file name="u1104-r.png" crc="24453898" ref="index"/>
+    <file name="u1104-m.png" crc="24453898" ref="index"/>
+    <file name="u1104-a.png" crc="4061340299" ref="index"/>
+    <file name="u1126.png" crc="4143145942" ref="index"/>
+    <file name="u1126-r.png" crc="28040725" ref="index"/>
+    <file name="u1126-m.png" crc="28040725" ref="index"/>
+    <file name="u1126-a.png" crc="78717486" ref="index"/>
+    <file name="u1147.png" crc="495898521" ref="index"/>
+    <file name="u1147-r.png" crc="3873095672" ref="index"/>
+    <file name="u1147-m.png" crc="3873095672" ref="index"/>
+    <file name="u1147-a.png" crc="3847765413" ref="index"/>
+    <file name="u1166.png" crc="4287268731" ref="index"/>
+    <file name="u1166-r.png" crc="3866619488" ref="index"/>
+    <file name="u1166-m.png" crc="3866619488" ref="index"/>
+    <file name="u1166-a.png" crc="286802567" ref="index"/>
+    <file name="u3308_states.png" crc="4004426774" ref="index:games:horror-stories:shop:about:contact:graphics"/>
+    <file name="u3308_states-r.png" crc="225577684" ref="index:games:horror-stories:shop:about:contact:graphics"/>
+    <file name="tigerlocket_03-crop-u1582.jpg" crc="273206801" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tigerlocket_01-crop-u1707.jpg" crc="3766240817" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="u1459-4.png" crc="4028437251" ref="index"/>
+    <file name="u3986.png" crc="4234848917" ref="index"/>
+    <file name="u3986-r.png" crc="224775348" ref="index"/>
+    <file name="u3986-m.png" crc="224775348" ref="index"/>
+    <file name="u3986-a.png" crc="3966814632" ref="index"/>
+    <file name="3d_model_001-crop-u1769.jpg" crc="3976878086" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3d_model_002-crop-u1789.jpg" crc="4117548446" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3d_model_003-crop-u1809.jpg" crc="4218085081" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3d_model_004-crop-u1829.jpg" crc="4206099185" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3d_model_005-crop-u1849.jpg" crc="385891044" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3d_model_006-crop-u1869.jpg" crc="4173500921" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="5236031" seo="true" mt="1753443626638" redirect="true"/>
+  <file name="games.html" crc="141760088" seo="true" mt="1753441769626" redirect="true"/>
+  <file name="horror-stories.html" crc="131557582" seo="true" mt="1753441769626" redirect="true"/>
+  <file name="shop.html" crc="4288614945" seo="true" mt="1753441769626" redirect="true"/>
+  <file name="about.html" crc="4132735804" seo="true" mt="1753441769626" redirect="true"/>
+  <file name="contact.html" crc="4210181153" seo="true" mt="1753441769626" redirect="true"/>
+  <file name="graphics.html" crc="3819183432" seo="true" mt="1753441769626" redirect="true"/>
+</manifest>
